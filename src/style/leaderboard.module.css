@@ -1,0 +1,42 @@
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8em;
+}
+
+.entriesContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5em;
+    width: min(98%, 400px);
+    padding: 0.6em 1em;
+    border-radius: 0.5em;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.entryLine {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    gap: 0.7em;
+    width: 100%;
+    & span {
+        font-style: oblique;
+        font-weight: 600;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+}
+
+.entryLine + .entryLine::before {
+    content: '';
+    position: absolute;
+    width: 90%;
+    z-index: 1;
+    top: -25%;
+    left: 5%;
+    border-top: 1px solid rgb(195, 195, 195);
+}

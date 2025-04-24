@@ -1,0 +1,118 @@
+.gameContainer {
+    display: grid;
+    gap: 0.5em;
+}
+
+.gameTargetsContainer {
+    display: flex;
+    gap: 1.2em;
+    padding: 0.4em 0.8em;
+    border: 1px solid black;
+    border-radius: 0.5em;
+    align-items: center;
+}
+
+.targetThumbnail {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    gap: 0.5em;
+}
+
+.targetImgContainer {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    box-shadow: rgba(100, 100, 111, 0.4) 0px 7px 29px 0px;
+    padding: 0.2em;
+    background-color: transparent;
+}
+
+.targetImg {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.completedThumb {
+    background-color: lightgreen;
+}
+
+.timer {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-left: auto;
+    color: #2e7d32;
+}
+
+.gameImgContainer {
+    position: relative;
+    width: 100%;
+    box-shadow: rgba(99, 99, 99, 0.3) 0px 2px 8px 0px;
+}
+
+.gameImg {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 0.5em;
+}
+
+.boundingBox {
+    position: absolute;
+    border: 1.5px solid black;
+    background-color: lightgreen;
+    opacity: 0.3;
+    border-radius: 0.25rem;
+    pointer-events: none;
+    /* ensures clicks go through */
+}
+
+.clickSvg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+.itemsContainer {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 0.3em;
+}
+
+
+.itemButton {
+    padding: 0.1em 0.3em;
+    z-index: 1;
+    cursor: pointer;
+    position: relative;
+}
+
+.completed {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.itemButton+.itemButton::before {
+    content: '';
+    position: absolute;
+    width: 80%;
+    z-index: 1;
+    top: -1px;
+    border-top: 1px solid rgb(195, 195, 195);
+}
+
+@media (max-width: 550px) {
+    .gameTargetsContainer {
+        flex-direction: column;
+        gap: 0.1em;
+    }
+    .timer {
+        margin: 0 auto;
+    }
+}

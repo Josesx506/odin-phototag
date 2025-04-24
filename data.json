@@ -1,0 +1,74 @@
+[
+  {
+    "title": "Hidden Objs (Easy)",
+    "url": "https://res.cloudinary.com/dwb3wrscb/image/upload/v1745279687/hidden_pictures_t56hlf.png",
+    "width": 432,
+    "height": 512,
+    "targets": [
+      {
+        "name": "Trowel",
+        "url": "https://res.cloudinary.com/dwb3wrscb/image/upload/v1745396624/trowel_hzsprp.png",
+        "boundingBoxes": [{ "top": 79, "left": 62, "width": 20, "height": 12 }]
+      },
+      {
+        "name": "Tennis Ball",
+        "url": "https://res.cloudinary.com/dwb3wrscb/image/upload/v1745396624/ball_mwzwcj.png",
+        "boundingBoxes": [{ "top": 76, "left": 2, "width": 5, "height": 4 }]
+      }
+    ]
+  },
+  {
+    "title": "Where's Waldo (Easy)",
+    "url": "https://res.cloudinary.com/dwb3wrscb/image/upload/v1745296228/wheres-waldo-social-distancing_jawgts.jpg",
+    "width": 1200,
+    "height": 630,
+    "targets": [
+      {
+        "name": "Waldo",
+        "url": "https://res.cloudinary.com/dwb3wrscb/image/upload/v1745460530/waldo-icon_nm9y77.png",
+        "boundingBoxes": [{ "top": 61, "left": 63, "width": 7, "height": 25 }]
+      },
+      {
+        "name": "Trader",
+        "url": "https://res.cloudinary.com/dwb3wrscb/image/upload/v1745461223/baldy-icon_oxoj8f.png",
+        "boundingBoxes": [{ "top": 78, "left": 86, "width": 7, "height": 22 }]
+      }
+    ]
+  },
+  {
+    "title": "Beach (Medium)",
+    "url": "https://res.cloudinary.com/dwb3wrscb/image/upload/v1745486801/waldo_beach_ojj7bf.jpg",
+    "width": 1200,
+    "height": 900,
+    "targets": [
+      {
+        "name": "Waldo",
+        "url": "https://res.cloudinary.com/dwb3wrscb/image/upload/v1745460530/waldo-icon_nm9y77.png",
+        "boundingBoxes": [{ "top": 46, "left": 51, "width": 4, "height": 8 }]
+      },
+      {
+        "name": "Odlaw",
+        "url": "https://res.cloudinary.com/dwb3wrscb/image/upload/v1745487294/odlaw-icon_pyoxtw.png",
+        "boundingBoxes": [{ "top": 47, "left": 23, "width": 3, "height": 9 }]
+      }
+    ]
+  },
+  {
+    "title": "Leap of Faith (Medium)",
+    "url": "https://res.cloudinary.com/dwb3wrscb/image/upload/v1745488548/asc-mirage_eptrud.jpg",
+    "width": 1920,
+    "height": 1080,
+    "targets": [
+      {
+        "name": "Basim",
+        "url": "https://res.cloudinary.com/dwb3wrscb/image/upload/v1745488708/basim-icon_vfjzq3.png",
+        "boundingBoxes": [{ "top": 49, "left": 49, "width": 1, "height": 2 }]
+      },
+      {
+        "name": "Eagle",
+        "url": "https://res.cloudinary.com/dwb3wrscb/image/upload/v1745488798/eagle-icon_kvshm1.png",
+        "boundingBoxes": [{ "top": 19, "left": 55, "width": 2, "height": 2 }]
+      }
+    ]
+  }
+]
