@@ -34,4 +34,4 @@ async function connectMongoose() {
   }
 }
 
-export { connectMongoose, connectPrisma };
+export { connectMongoose }; //connectPrisma
