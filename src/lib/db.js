@@ -1,10 +1,9 @@
-import { PrismaClient } from "@/generated/prisma";
+// import { PrismaClient } from "@/generated/prisma";
 import "dotenv/config";
 import mongoose from "mongoose";
 
-const connectPrisma = global.prisma || new PrismaClient();
-
-if (process.env.NODE_ENV !== "production") global.prisma = connectPrisma;
+// const connectPrisma = global.prisma || new PrismaClient();
+// if (process.env.NODE_ENV !== "production") global.prisma = connectPrisma;
 
 
 
